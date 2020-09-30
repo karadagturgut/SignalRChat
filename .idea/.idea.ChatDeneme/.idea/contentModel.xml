@@ -20,7 +20,11 @@
           </e>
         </e>
         <e p="Models" t="Include">
+          <e p="ChatInfoModel.cs" t="Include" />
           <e p="ChatMessage.cs" t="Include" />
+          <e p="Settings" t="Include">
+            <e p="ChatDatabaseSettings.cs" t="Include" />
+          </e>
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -32,6 +36,9 @@
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Service" t="Include">
+          <e p="DatabaseService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="WeatherForecast.cs" t="Include" />
